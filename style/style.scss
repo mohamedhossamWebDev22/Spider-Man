@@ -17,15 +17,17 @@
   -moz-border-radius: 178px 199px 180px 136px;
   -webkit-border-radius: 178px 199px 180px 136px;
   border:0;
+
+  width: 350px;
 }
 
 .carousel-item {
-  height: 300px;
+  height: 400px;
 }
   
 .carousel-item img {
   position: absolute;  
   top: 0;
   left: 0;
-  min-height: 300px;
+  min-height: 400px;
 }
