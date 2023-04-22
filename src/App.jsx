@@ -4,7 +4,7 @@ import React from "react";
 const App = () => {
   return (
     <>
-      <nav className="navbar text-center text-light navbar-light bg-black px-3">
+      <nav className="navbar text-center text-light navbar-light bg-black px-3 fixed-top">
         {/* playstation btn*/}
         <div className="nav-item">
           <a
@@ -27,7 +27,7 @@ const App = () => {
         <a className="navbar-brand mx-auto" href="#">
           <img src="/src/assets/logo.png" width={50} height={60} alt="hh" />
         </a>
-
+        {/* menu btn */}
         <a className="nav-item">
           <button
             className="btn btn-sm btn-outline-light"
@@ -49,19 +49,23 @@ const App = () => {
             </svg>
           </button>
         </a>
+        {/* links */}
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mx-auto ">
             <li>
-              <a href="https://www.bing.com/ck/a?!&&p=868a73cf2fde9baaJmltdHM9MTY4MjEyMTYwMCZpZ3VpZD0wZjA4ODNjMC05MTI4LTZlMWUtMmIzYS04Yzk2OTAzZTZmNmMmaW5zaWQ9NTI5OA&ptn=3&hsh=3&fclid=0f0883c0-9128-6e1e-2b3a-8c96903e6f6c&psq=spider+man+miles+morales+game&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvU3BpZGVyLU1hbjpfTWlsZXNfTW9yYWxlcw&ntb=1" className="navbar-link text-muted">
+              <a href="https://en.wikipedia.org/wiki/Marvel%E2%80%99s_Spider-Man:_Miles_Morales" className="navbar-link text-muted">
                 Wikipedia
               </a>
             </li>
             <div className="dropdown-divider text-muted"></div>
             <li>
-              <a href="" className="navbar-link text-muted">sss</a>
+              <a href="https://www.marvel.com/games/marvel-s-spider-man-miles-morales" className="navbar-link text-muted">
+                Marvel
+              </a>
             </li>
+            <div className="dropdown-divider text-muted"></div>
             <li>
-              <a href="" className="navbar-link text-muted"></a>
+              <a href="" className="navbar-link text-muted">About Me</a>
             </li>
           </ul>
         </div>
