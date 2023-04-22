@@ -126,7 +126,7 @@ const App = () => {
       <div className="py-5 bg-light">
         <Third
           txt="lobortis feugiat vivamus at augue eget arcu dictum varius duis at consectetur lorem donec massa"
-          imgSrc="src/assets/pic1.png"
+          imgSrc="./assets/pic1.png"
         />
 
         <Therd
