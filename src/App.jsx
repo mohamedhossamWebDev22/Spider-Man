@@ -3,8 +3,8 @@ import React from "react";
 
 import Navbar from "./components/navbar.jsx";
 
-import Third from "./components/third.jsx"
-import Therd from "./components/therd.jsx"
+import Third from "./components/third.jsx";
+import Therd from "./components/therd.jsx";
 
 const App = () => {
   return (
@@ -122,12 +122,27 @@ const App = () => {
         </div>
       </div>
 
+      {/* cards  */}
       <div className="py-5 bg-light">
-        <Third txt='lobortis feugiat vivamus at augue eget arcu dictum varius duis at consectetur lorem donec massa' imgSrc='src/assets/pic1.png'/>
-        
-        <Therd txt='lobortis feugiat vivamus at augue eget arcu dictum varius duis at consectetur lorem donec massa' imgSrc="src/assets/pic2.png"/>
+        <Third
+          txt="lobortis feugiat vivamus at augue eget arcu dictum varius duis at consectetur lorem donec massa"
+          imgSrc="src/assets/pic1.png"
+        />
 
-        <Third txt='lobortis feugiat vivamus at augue eget arcu dictum varius duis at consectetur lorem donec massa' imgSrc="src/assets/pic3.png"/>
+        <Therd
+          txt="lobortis feugiat vivamus at augue eget arcu dictum varius duis at consectetur lorem donec massa"
+          imgSrc="src/assets/pic2.png"
+        />
+
+        <Third
+          txt="lobortis feugiat vivamus at augue eget arcu dictum varius duis at consectetur lorem donec massa"
+          imgSrc="src/assets/pic3.png"
+        />
+      </div>
+
+      <div className="bg-red text-light text-center py-3">
+        <p className="h1">Made by:</p>
+        <h2 className="h1">Mohamed Hossam</h2>
       </div>
     </>
   );
