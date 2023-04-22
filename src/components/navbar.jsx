@@ -4,12 +4,12 @@ import React from 'react';
 const Navbar = () => {
   return (
     <>
-      <nav className="navbar text-center text-light navbar-light bg-black px-3">
+      <nav className="navbar shadow-d text-center fixed-top text-light navbar-light bg-black px-3">
         {/* playstation btn*/}
         <div className="nav-item">
           <a
-            className="nav-link text-light"
-            href="https://www.playstation.com/en-gb/games/marvels-spider-man-miles-morales/"
+            className="nav-link text-light" target="_blank"
+            href="https://www.playstation.com/en-gb/games/marvels-spider-man-miles-morales/" rel="noreferrer"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -25,7 +25,7 @@ const Navbar = () => {
         </div>
         {/* logo */}
         <a className="navbar-brand mx-auto" href="#">
-          <img src="./src/assets/logo.png" width={50} height={60} alt="hh" />
+          <img src="./src/assets/logo.png" width={60} height={70} alt="hh" />
         </a>
         {/* menu btn */}
         <a className="nav-item">
@@ -53,13 +53,13 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mx-auto ">
             <li>
-              <a href="https://en.wikipedia.org/wiki/Marvel%E2%80%99s_Spider-Man:_Miles_Morales" className="navbar-link text-muted">
+              <a target="_blank" href="https://en.wikipedia.org/wiki/Marvel%E2%80%99s_Spider-Man:_Miles_Morales" className="navbar-link text-muted" rel="noreferrer">
                 Wikipedia
               </a>
             </li>
             <div className="dropdown-divider text-muted"></div>
             <li>
-              <a href="https://www.marvel.com/games/marvel-s-spider-man-miles-morales" className="navbar-link text-muted">
+              <a target="_blank" href="https://www.marvel.com/games/marvel-s-spider-man-miles-morales" className="navbar-link text-muted" rel="noreferrer">
                 Marvel
               </a>
             </li>
