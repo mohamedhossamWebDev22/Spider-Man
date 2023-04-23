@@ -6,6 +6,14 @@ import Navbar from "./components/navbar.jsx";
 import Third from "./components/third.jsx";
 import Therd from "./components/therd.jsx";
 
+import img1 from './assets/img1.png'
+import img2 from './assets/img2.png'
+import img3 from './assets/img3.png'
+
+import pic1 from './assets/pic1.png';
+import pic2 from './assets/pic2.png';
+import pic3 from './assets/pic3.png';
+
 const App = () => {
   return (
     <>
@@ -35,7 +43,7 @@ const App = () => {
             <div className="col-md-4 col-sm-0 container text-center">
               <img
                 className="mt-5 shadow border-R"
-                src="/src/assets/img1.png"
+                src={img1}
               />
             </div>
           </div>
@@ -62,7 +70,7 @@ const App = () => {
             <div className="carousel-inner">
               <div className="carousel-item active">
                 <img
-                  src="src/assets/img1.png"
+                  src={img1}
                   className="d-block w-100"
                   alt="..."
                 />
@@ -73,7 +81,7 @@ const App = () => {
               </div>
               <div className="carousel-item">
                 <img
-                  src="src/assets/img2.png"
+                  src={img2}
                   className="d-block w-100"
                   alt="..."
                 />
@@ -84,7 +92,7 @@ const App = () => {
               </div>
               <div className="carousel-item">
                 <img
-                  src="src/assets/img3.png"
+                  src={img3}
                   className="d-block w-100"
                   alt="..."
                 />
@@ -126,17 +134,17 @@ const App = () => {
       <div className="py-5 bg-light">
         <Third
           txt="lobortis feugiat vivamus at augue eget arcu dictum varius duis at consectetur lorem donec massa"
-          imgSrc={"./assets/pic1.png"}
+          imgSrc={pic1}
         />
 
         <Therd
           txt="lobortis feugiat vivamus at augue eget arcu dictum varius duis at consectetur lorem donec massa"
-          imgSrc="src/assets/pic2.png"
+          imgSrc={pic2}
         />
 
         <Third
           txt="lobortis feugiat vivamus at augue eget arcu dictum varius duis at consectetur lorem donec massa"
-          imgSrc="src/assets/pic3.png"
+          imgSrc={pic3}
         />
       </div>
 

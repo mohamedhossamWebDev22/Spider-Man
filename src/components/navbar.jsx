@@ -1,6 +1,8 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
 
+import logo from '../assets/logo.png'
+
 const Navbar = () => {
   return (
     <>
@@ -25,7 +27,7 @@ const Navbar = () => {
         </div>
         {/* logo */}
         <a className="navbar-brand mx-auto" href="#">
-          <img src="./src/assets/logo.png" width={60} height={70} alt="hh" />
+          <img src={logo} width={60} height={70} alt="hh" />
         </a>
         {/* menu btn */}
         <a className="nav-item">
